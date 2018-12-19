@@ -1,0 +1,41 @@
+{
+  "name": "alfred-alfred",
+  "version": "0.0.0",
+  "description": "Search and kill processes",
+  "license": "MIT",
+  "repository": "weekwood/alfred-alfred",
+  "author": {
+    "name": "di wu",
+    "email": "di.wu@me.com",
+    "url": "diwu.me"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "jenkins": "^0.23.0",
+    "nestor": "^2.1.0",
+    "node-jenkins": "^1.2.4"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
