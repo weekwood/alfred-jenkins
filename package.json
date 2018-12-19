@@ -30,7 +30,6 @@
   "dependencies": {
     "alfy": "^0.6.0",
     "jenkins": "^0.23.0",
-    "nestor": "^2.1.0",
     "node-jenkins": "^1.2.4"
   },
   "devDependencies": {
