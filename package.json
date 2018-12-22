@@ -7,7 +7,7 @@
   "author": {
     "name": "di wu",
     "email": "di.wu@me.com",
-    "url": "diwu.me"
+    "url": "http://diwu.me"
   },
   "engines": {
     "node": ">=8"
@@ -29,8 +29,7 @@
   ],
   "dependencies": {
     "alfy": "^0.6.0",
-    "jenkins": "^0.23.0",
-    "node-jenkins": "^1.2.4"
+    "jenkins": "^0.23.0"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",
